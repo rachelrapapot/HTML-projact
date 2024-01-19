@@ -1,0 +1,52 @@
+@keyframes imagg {
+    0%   {background-image: url(images/briot1.jpg);}
+    25%  {background-image: url(images/2.jpg);}
+    50%  {background-image: url(images/1.jpg);}
+    75%  {background-image: url(images/briot9.jpg);}
+    100% {background-image: url(images/c3.jpg);}
+  }
+  body{
+    margin: 0;
+  }
+  /* The element to apply the animation to */
+main{
+    width: 100vw;
+    height: 90vh;
+    position: relative;
+    background-image: url(images/briot1.jpg);
+    animation-name: imagg;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    background-size: cover;
+
+  }
+  header{
+    background-color: rgb(71, 49, 41);
+    height: 10vh;
+    text-align: center;
+    align-items: center;
+  }
+  .fix{
+position: fixed;
+bottom: 5vh;
+right: 2vw;
+z-index: 2;
+width: 4vh;
+height: 4vh;
+  }
+  a{
+font-size: large;
+color:rgb(233, 182, 165);
+font-family: Arial, Helvetica, sans-serif;
+text-decoration: none;
+
+  }
+h2{
+    margin-top: 0%;
+    text-align: center;
+}
+  li{
+    text-align: center;
+    font-size: x-large;
+
+  }

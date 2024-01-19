@@ -1,0 +1,371 @@
+
+body{
+  margin: 0%;
+  background-color: rgb(226, 169, 169);
+}
+.homesite h3{
+    height: 40px;
+    background-color: rgb(16, 16, 15);
+    text-align: center;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0%;
+    color: aliceblue;
+
+}
+aside nav a{
+    padding: 8px 16px;
+    float: left;
+    width: auto;
+    border: none;
+    display: block;
+    outline: 0;
+    text-decoration: none;
+    color:aliceblue;
+  text-align: center;
+ 
+
+}
+nav a:hover{
+  background-color: aliceblue;
+  color:rgb(226, 169, 169) ;
+}
+button {
+  background-color: aliceblue;
+  color:rgb(226, 169, 169) ;
+  display: none;
+
+}
+
+@media screen and (max-width: 800px) {
+
+  .column {
+    -ms-flex: 50%;
+    flex: 50%;
+    max-width: 50%;
+  }
+button :hover aside nav a{
+  display: block;
+}
+button {
+  background-color: aliceblue;
+  color:rgb(226, 169, 169) ;
+  position: relative;
+  display: block;
+}
+aside nav a{
+  display: none;
+  position: absolute;
+}
+}
+@media screen and (max-width: 1024px) {
+.galleryall{
+    margin: 5%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+
+}
+
+
+.homesite nav{
+  background-color: #717171!important;
+  margin: 0%;
+}
+.homesite header{
+ 
+  margin: 0%;
+}
+.homesite{
+   /* display: grid;
+    grid-template-columns:4fr 1fr;
+    grid-template-rows: 40px 0.5fr 2vh 100px ;
+  
+    grid-area: 'header header'
+    'nav nav'
+    'main aside'
+    'footer footer'
+    ;
+   */
+   background-color: rgb(226, 169, 169);
+}
+
+ header{    
+grid-area: header;
+}
+ nav{
+grid-area:nav;
+}
+.homesite main{
+    grid-area: main;
+}
+aside{
+    grid-area: aside;
+    display: flex;
+    justify-content: space-between;
+flex-direction: column;
+}
+footer{
+  grid-area: footer;
+}
+.chaild{
+
+  display: grid;
+  grid-template-rows:   48vh 200vh 7vh;
+  grid-template-columns: 8fr 1fr;
+  grid-template-areas: 'header header'
+                       'main aside' 
+                        'footer footer';
+}
+
+.homesite .link {
+    border: none;
+    padding: 8px 16px;
+    vertical-align: middle;
+    overflow: hidden;
+    text-decoration: none;
+    color: inherit;
+    background-color: inherit;
+    text-align: center;
+    cursor: pointer;
+    white-space: nowrap;
+    white-space: normal;
+    text-shadow: 4px 4px 5px rgb(162, 160, 162);
+    
+    
+        background-color: #717171!important;
+        color: aliceblue;
+      
+    
+}
+.homesite nav div{
+      display:flex;
+      justify-content: space-between;
+      margin-left: 3%;
+      margin-right: 3%;
+}
+
+
+/*צור קשר עיצוב*/
+.pament1 {
+  font-family: Arial;
+  font-size: 17px;
+  padding: 8px;
+  margin: 5%;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.row {
+  display: -ms-flexbox; /* IE10 */
+  display: flex;
+  -ms-flex-wrap: wrap; /* IE10 */
+  flex-wrap: wrap;
+  margin: 0 -16px;
+}
+
+.col-25 {
+  -ms-flex: 25%; /* IE10 */
+  flex: 25%;
+}
+
+.col-50 {
+  -ms-flex: 50%; /* IE10 */
+  flex: 50%;
+}
+
+.col-75 {
+  -ms-flex: 75%; /* IE10 */
+  flex: 75%;
+}
+
+.col-25,
+.col-50,
+.col-75 {
+  padding: 0 16px;
+}
+
+.container {
+  background-color: #f2f2f2;
+  padding: 5px 20px 15px 20px;
+  border: 1px solid lightgrey;
+  border-radius: 3px;
+}
+
+input[type=text] {
+  width: 100%;
+  margin-bottom: 20px;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+}
+
+label {
+  margin-bottom: 10px;
+  display: block;
+}
+
+.icon-container {
+  margin-bottom: 20px;
+  padding: 7px 0;
+  font-size: 24px;
+}
+
+.btn {
+  background-color: #04AA6D;
+  color: white;
+  padding: 12px;
+  margin: 10px 0;
+  border: none;
+  width: 100%;
+  border-radius: 3px;
+  cursor: pointer;
+  font-size: 17px;
+}
+
+.btn:hover {
+  background-color: #45a049;
+}
+
+a {
+  color: #2196F3;
+}
+
+hr {
+  border: 1px solid lightgrey;
+}
+
+span.price {
+  float: right;
+  color: grey;
+}
+
+
+@media (max-width: 800px) {
+  .row {
+    flex-direction: column-reverse;
+  }
+  .col-25 {
+    margin-bottom: 20px;
+  }
+}
+/****נגמר עמןד צור קשר מועתק ----w3scoll
+
+*/
+/*דף הבית תמונות*/
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Arial;
+}
+
+
+
+.row {
+  display: -ms-flexbox; /* IE10 */
+  display: grid;
+
+
+  padding: 0 4px;
+}
+
+
+.row img{
+  opacity: 0.3;
+}
+.column {
+ 
+  max-width: 25%;
+  padding: 0 4px;
+}
+
+.column img {
+  margin-top: 08px;
+  vertical-align: middle;
+  width: 100%;
+}
+
+
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .column {
+    -ms-flex: 100%;
+    flex: 100%;
+    max-width: 50%;
+  }
+  .galleryall{
+    margin-top: 0%;
+    margin-bottom: 7%;
+    margin-left: 7%;
+    margin-right: 7%;
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+}
+/*עיצובים אלו זה בשביל התמונות בכל עמוד*/
+div.gallery {
+  margin-top: 0%;
+  margin-bottom: 7%;
+  margin-left: 7%;
+  margin-right: 7%;
+
+ background-color: rgb(129, 95, 95);
+}
+.galleryall{
+  margin-top: 0%;
+  margin-bottom: 7%;
+  margin-left: 7%;
+  margin-right: 7%;
+ 
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr ;
+}
+
+div.gallery:hover {
+ 
+}
+
+div.gallery img {
+  width: 22vw;
+  height:22vw ;
+   box-shadow: 0 0 10px 0 rgb(0 0 0 / 15%);
+   
+}
+
+div.desc {
+  padding: 0%;
+  text-align: center;
+  color: rgb(226, 169, 169);
+  font-size:20px;
+  margin: 0%;
+  font-family: freestyle script;
+}
+div.gallery p{
+  
+  padding: 0%;
+  margin: 0%;
+  text-align: center;
+  color: rgb(226, 169, 169);
+  font-size:20px;
+  font-family: freestyle script;
+}
+button{
+margin-left: 40%;
+  border: none;
+}
+header img{
+  width: 100vw;
+  
+}
+footer img{
+  width: 100vw;
+  
+}
+
+
